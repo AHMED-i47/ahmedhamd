@@ -63,10 +63,10 @@ params:
     list:
       - degree: Cycle Ingénieur en Cybersécurité
         college: Institut National des Postes et Télécommunications (INPT)
-        dates: 2023 - Présent
+        dates: 2024 - 2025
       - degree: Classes Préparatoires aux Grandes Écoles
         college: CPGE
-        dates: 2021 - 2023
+        dates: 2022 - 2024
   skill:
     title: Compétences
     panelId: skill-panel
