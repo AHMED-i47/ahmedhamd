@@ -1,13 +1,13 @@
 baseURL: https://aafu.pages.dev/
 # Uncomment below to use aafu as hugo theme. See instructions in README.md
 # theme: aafu
-languageCode: en-us
+languageCode: fr-fr
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
-  description: Website title
+  title: Portfolio d'Ahmed Hamdaoua
+  author: Ahmed Hamdaoua
+  description: Étudiant Ingénieur en Cybersécurité
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
     [Cloudflare](https://www.cloudflare.com/)
@@ -26,147 +26,81 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
-    photo: profile.jpg
+    name: "Ahmed Hamdaoua"
+    tagline: Étudiant Ingénieur en Cybersécurité
+    location: "INPT, Rabat, Maroc"
+    photo: https://img.icons8.com/color/512/cyber-security.png
   social:
-    title: Links
+    title: Réseaux Sociaux
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/hamdaoua-ahmed"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/AHMED-i47"
         title: GitHub
+      - icon: fas fa-envelope
+        url: "mailto:ahmedhamdaoua@gmail.com"
+        title: Email
       - icon: fab fa-twitter
         url: "#"
         title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
-    - item: experience
     - item: education
-    - item: publication
-    - item: project
     - item: skill
+    - item: project
     - item: hobby
   aboutme:
-    title: About Me
+    title: À Propos de Moi
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
-  experience:
-    title: Experiences
-    icon: fas fa-briefcase
-    list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
-        details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+    description: |
+      Je suis étudiant en première année du cycle d'ingénieur en Cybersécurité à l'Institut National des Postes et Télécommunications (INPT) à Rabat. Passionné par la sécurité informatique et la protection des systèmes d'information, je développe constamment mes compétences dans ce domaine en pleine expansion.
   education:
-    title: Education
+    title: Formation
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
-  publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
-  project:
-    title: Projects
-    icon: fas fa-project-diagram
-    list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+      - degree: Cycle Ingénieur en Cybersécurité
+        college: Institut National des Postes et Télécommunications (INPT)
+        dates: 2023 - Présent
+      - degree: Classes Préparatoires aux Grandes Écoles
+        college: CPGE
+        dates: 2021 - 2023
   skill:
-    title: Skills
+    title: Compétences
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
-        skillrating: 90
-      - skill: Skill 3
+      - skill: "Sécurité des Réseaux, Cryptographie"
+        skillrating: 85
+      - skill: "Python, Java, C"
         skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+      - skill: "Linux, Administration Système"
+        skillrating: 75
+      - skill: "Analyse de Vulnérabilités"
+        skillrating: 70
+  project:
+    title: Projets
+    icon: fas fa-project-diagram
+    list:
+      - title: SecureShare - Plateforme de Partage Sécurisé
+        url: "#"
+        description: Développement d'une plateforme de partage de fichiers avec chiffrement de bout en bout, authentification forte et journalisation des accès
+      - title: CyberQuiz - Plateforme Éducative
+        url: "#"
+        description: Développement d'une plateforme interactive d'apprentissage avec système de quiz, authentification des utilisateurs, suivi des progrès et tableau de bord analytique
+      - title: Projet CTF
+        url: "#"
+        description: Participation à des challenges de sécurité informatique
+      - title: Sécurisation Réseau
+        url: "#"
+        description: Configuration et sécurisation d'un réseau local
   hobby:
-    title: Hobbies
+    title: Centres d'Intérêt
     icon: fas fa-gamepad
     list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: CTF (Capture The Flag)
+      - hobby: Veille Technologique
+      - hobby: Programmation
+      - hobby: Sport

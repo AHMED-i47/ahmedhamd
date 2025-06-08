@@ -5,5 +5,7 @@ assets/style.css
 *.toml_
 hugo_stats.json
 .hugo_build.lock
-public/*
+/public/
+/resources/
+.DS_Store
 build.ps1
